@@ -1,1 +1,50 @@
 /* Import all partials */
+/* line 13, ../scss/_typography.scss */
+body {
+  background: #f2f2f2;
+  color: #333332;
+  font-family: "Ledger", serif;
+  word-wrap: break-word;
+}
+
+/* line 19, ../scss/_typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Arvo', serif;
+}
+
+/* line 23, ../scss/_typography.scss */
+a {
+  background: transparent;
+}
+
+/* line 27, ../scss/_typography.scss */
+a:link, a:visited {
+  color: #16a085;
+}
+
+/* line 31, ../scss/_typography.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/* line 36, ../scss/_typography.scss */
+a:active,
+a:hover {
+  color: #0d5d4d;
+  outline: 0;
+}
+
+/* line 41, ../scss/_typography.scss */
+.blogTitle-dg, .blogTitle-dg a {
+  text-decoration: none;
+}
+
+/* line 45, ../scss/_typography.scss */
+.blogDescription-dg, .blogDescription-dg a {
+  text-decoration: none;
+}
+
+/* line 49, ../scss/_typography.scss */
+.postTitle-dg, .postTitle-dg a {
+  text-decoration: none;
+}

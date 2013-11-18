@@ -1,3 +1,16 @@
 //**
 // Mixins
 //**
+
+@mixin BodyColor {
+	background: $color01;
+	color: $color02;
+}
+
+@mixin LinkColor {
+	color: $color03;
+}
+
+@mixin LinkHoverColor {
+	color: darken($color03, 15%);
+}

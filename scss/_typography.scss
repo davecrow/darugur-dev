@@ -3,11 +3,49 @@
 //**
 
 @mixin HeaderFont {
-
+	font-family: 'Arvo', serif;
 }
 
 //**
 // Styles
 //**
 
+body {
+	@include BodyColor;
+	font-family: $default_font;
+	word-wrap: break-word;
+}
 
+h1, h2, h3, h4, h5, h6 {
+	@include HeaderFont;
+}
+
+a {
+    background: transparent;
+}
+ 
+a:link, a:visited {
+  @include LinkColor;
+}
+ 
+a:focus {
+    outline: thin dotted;
+}
+ 
+a:active,
+a:hover {
+    @include LinkHoverColor;
+    outline: 0;
+}
+
+.blogTitle-dg, .blogTitle-dg a {
+	text-decoration: none;
+}
+
+.blogDescription-dg, .blogDescription-dg a {
+	text-decoration: none;
+}
+
+.postTitle-dg, .postTitle-dg a {
+	text-decoration: none;
+}
